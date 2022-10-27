@@ -205,7 +205,7 @@ def get_features(keywords):
 
 
 input_file = sys.argv[1]
-keywords = f.keywords(input_file)
+keywords = f.keywords(input_file) #keywords是一个输入文件的字典
 prefix = keywords['prefix']
 features = get_features(keywords)
 if features != []:
